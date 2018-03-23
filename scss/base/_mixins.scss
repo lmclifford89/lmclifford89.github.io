@@ -1,0 +1,43 @@
+@mixin gradient {
+background: -moz-linear-gradient(45deg, #00c993 0%, #006fba 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, #00c993 0%,#006fba 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, #00c993 0%,#006fba 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+  background-clip: padding-box;  /* stops bg color from leaking outside the border: */
+}
+
+@mixin border($color) {
+  border: 1px solid $color;
+
+}
+
+@mixin box-shadow {
+  -webkit-box-shadow: -1px 6px 9px -1px rgba(0,0,0,0.75);
+ -moz-box-shadow: -1px 6px 9px -1px rgba(0,0,0,0.75);
+ box-shadow: 1px 6px 9px 1px rgba(0,0,0,0.75);
+}
+
+@mixin inner-box-shadow {
+  -webkit-box-shadow: inset 1px 1px 9px -1px rgba(122,122,122,1);
+-moz-box-shadow: inset 1px 1px 9px -1px rgba(122,122,122,1);
+box-shadow: inset 1px 1px 9px -1px rgba(122,122,122,1);
+}
+
+@mixin title {
+  font-family: $ibm;
+  font-weight:500;
+  color: $green;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 15px;
+}
+
+@mixin transition {
+  transition: box-shadow .2s, padding .2s;
+  -webkit-transition: box-shadow .2s, padding .2s;
+}

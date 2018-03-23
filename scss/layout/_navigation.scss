@@ -1,0 +1,28 @@
+
+.navbar-brand{
+  font-family: $rak;
+  font-size: 1.5rem;
+  color: $white !important;
+  padding: 5px;
+  padding-left: 9px;
+  padding-right: 9px;
+  @include border-radius(100%);
+  @include border($white);
+  &:hover{
+    color: $green !important;
+    background-color: $white;
+    @include border($green);
+  }
+}
+
+.navbar-nav {
+margin-left: 80%;
+a{
+  font-family: $ibm;
+  margin-left: 10px;
+color: $white !important;
+&:hover{
+  color: $green !important;
+}
+}
+}

@@ -1,0 +1,117 @@
+
+//serenity hills
+#shLink{
+@include transition;
+  &:hover{
+    @include box-shadow;
+    padding: $hoverPad;
+  }
+}
+
+#shCode{
+  @include transition;
+    &:hover{
+      @include box-shadow;
+      padding: $hoverPad;
+    }
+}
+
+//photo Photo-Gallery-and-Blog
+
+#phoLink{
+  @include transition;
+    &:hover{
+      @include box-shadow;
+      padding: $hoverPad;
+    }
+}
+
+#phoCode{
+  @include transition;
+    &:hover{
+      @include box-shadow;
+      padding: $hoverPad;
+    }
+}
+
+//Erospace
+
+#eroLink{
+  @include transition;
+    &:hover{
+      @include box-shadow;
+      padding: $hoverPad;
+    }
+}
+
+#eroCode{
+  @include transition;
+    &:hover{
+      @include box-shadow;
+      padding: $hoverPad;
+    }
+}
+
+//Starstruck
+
+#strLink{
+  @include transition;
+    &:hover{
+      @include box-shadow;
+      padding: $hoverPad;
+    }
+}
+
+#strCode{
+  @include transition;
+    &:hover{
+      @include box-shadow;
+      padding: $hoverPad;
+    }
+}
+
+//Jon-s-Noir-Bar
+
+#jonLink{
+  @include transition;
+    &:hover{
+      @include box-shadow;
+      padding: $hoverPad;
+    }
+}
+
+#jonCode{
+  @include transition;
+    &:hover{
+      @include box-shadow;
+      padding: $hoverPad;
+    }
+}
+
+//WhimsTea
+
+#whimLink{
+  @include transition;
+    &:hover{
+      @include box-shadow;
+      padding: $hoverPad;
+    }
+}
+
+#whimCode{
+  @include transition;
+    &:hover{
+      @include box-shadow;
+      padding: $hoverPad;
+    }
+}
+
+//portfolio button
+
+#porBtn{
+  @include transition;
+  cursor: pointer;
+    &:hover{
+      padding: $hoverPad;
+    }
+}

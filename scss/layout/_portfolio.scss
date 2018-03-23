@@ -1,0 +1,72 @@
+
+#portTitle{
+@include title;
+}
+
+.portBtn {
+  width:50px;
+  height: 50px;
+  @include border-radius(100%);
+  @include border($white);
+  //@include gradient;
+  background-color: $green;
+  font-size: 2rem;
+  text-align: center;
+  color: $white;
+  margin-left: 48.1%;
+}
+
+.container{
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 20px;
+  background-color: $white;
+  @include inner-box-shadow;
+.row{
+  margin-top: 50px;
+  .col-md-6{
+    background-color: $white;
+    margin-left: 0;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    img {
+    max-width: 100%;
+    max-height: 100%;
+    @include border($green);
+  }
+  .divLink{
+    display: inline-block;
+    width: 30%;
+    margin-top: 20px;
+    margin-left:15%;
+    background-color:$green;
+    text-align: center;
+    padding: 10px;
+
+  }
+  .divLinkCode{
+    display: inline-block;
+    width: 30%;
+    margin-top: 20px;
+    margin-left:5%;
+    background-color:$blue;
+    text-align: center;
+    padding: 10px;
+  }
+     a{
+      font-family: $ibm;
+      font-size: 1.2rem;
+      color:$white;
+      text-decoration: none;
+    }
+    p{
+      text-align: center;
+      font-family: $ibm;
+      color: $paraColor;
+      margin-top: 20px;
+    }
+
+    }
+  }
+}

@@ -1,0 +1,614 @@
+/* line 1, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/base/_base.scss */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #F7F7F7;
+}
+
+/* line 1, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_about.scss */
+.about {
+  width: 100%;
+  float: left;
+  margin-top: 90px;
+  margin-bottom: 100px;
+}
+
+/* line 7, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_about.scss */
+.about #titleAbout {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 500;
+  color: #00C993;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 15px;
+}
+
+/* line 10, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_about.scss */
+.about #col-pic {
+  width: 15%;
+  height: 200px;
+  background-image: url(../img/about_me.jpg);
+  background-size: cover;
+  margin-left: 15%;
+  float: left;
+  border: 1px solid #00C993;
+}
+
+/* line 20, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_about.scss */
+.about #col-about {
+  width: 50%;
+  margin-top: 50px;
+  margin-right: 180px;
+  font-size: 1.2rem;
+  color: #919293;
+  float: right;
+}
+
+/* line 29, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_about.scss */
+.about .skills {
+  width: 30%;
+  height: auto;
+  background-color: #00C993;
+  float: left;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 500;
+  color: #00C993;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 15px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  background-clip: padding-box;
+  /* stops bg color from leaking outside the border: */
+  margin-left: 5%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 50px;
+  color: #fff;
+  text-align: center;
+}
+
+/* line 42, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_about.scss */
+.about .skills h4 {
+  margin-left: 10%;
+}
+
+/* line 45, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_about.scss */
+.about .skills #skillI {
+  display: inline-block;
+  font-size: 1rem;
+  margin-top: 20px;
+}
+
+/* line 49, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_about.scss */
+.about .skills #skillI ul {
+  display: inline-block;
+}
+
+/* line 51, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_about.scss */
+.about .skills #skillI ul li {
+  list-style-type: none;
+}
+
+/* line 1, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_footer.scss */
+.contactFooter {
+  clear: both;
+  width: 100%;
+  height: 300px;
+  background-color: #00C993;
+}
+
+/* line 6, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_footer.scss */
+.contactFooter #conTitle {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 500;
+  color: #00C993;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 15px;
+  color: #fff;
+  padding-top: 50px;
+}
+
+/* line 11, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_footer.scss */
+.contactFooter .contact {
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* line 15, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_footer.scss */
+.contactFooter span {
+  color: #fff;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 1.5rem;
+}
+
+/* line 20, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_footer.scss */
+.contactFooter .contI {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+/* line 25, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_footer.scss */
+.contactFooter .contI a {
+  color: #fff;
+}
+
+/* line 27, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_footer.scss */
+.contactFooter .contI a:hover {
+  color: #006fba;
+}
+
+/* line 1, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_header.scss */
+header {
+  width: auto;
+  height: auto;
+  background: -moz-linear-gradient(45deg, #00c993 0%, #006fba 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #00c993 0%, #006fba 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #00c993 0%, #006fba 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+/* line 5, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_header.scss */
+header .title {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: bold;
+  font-size: 5rem;
+  color: #fff;
+  text-align: center;
+  margin-top: 5%;
+  padding-bottom: 20px;
+}
+
+/* line 14, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_header.scss */
+header .summary {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 1.5rem;
+  color: #fff;
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-bottom: 50px;
+}
+
+/* line 23, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_header.scss */
+header .btnHead {
+  padding-top: 50px;
+  padding-bottom: 120px;
+  text-align: center;
+}
+
+/* line 28, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_header.scss */
+header .btnHead a {
+  color: #fff;
+  text-decoration: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background-clip: padding-box;
+  /* stops bg color from leaking outside the border: */
+  border: 1px solid #fff;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 20px;
+  background: rgba(46, 132, 108, 0.5);
+}
+
+/* line 38, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_header.scss */
+header .btnHead a:hover {
+  background-color: #fff;
+  color: #00C993;
+}
+
+/* line 2, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_navigation.scss */
+.navbar-brand {
+  font-family: "Rakkas", cursive;
+  font-size: 1.5rem;
+  color: #fff !important;
+  padding: 5px;
+  padding-left: 9px;
+  padding-right: 9px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  background-clip: padding-box;
+  /* stops bg color from leaking outside the border: */
+  border: 1px solid #fff;
+}
+
+/* line 11, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_navigation.scss */
+.navbar-brand:hover {
+  color: #00C993 !important;
+  background-color: #fff;
+  border: 1px solid #00C993;
+}
+
+/* line 18, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_navigation.scss */
+.navbar-nav {
+  margin-left: 80%;
+}
+
+/* line 20, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_navigation.scss */
+.navbar-nav a {
+  font-family: "IBM Plex Mono", monospace;
+  margin-left: 10px;
+  color: #fff !important;
+}
+
+/* line 24, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_navigation.scss */
+.navbar-nav a:hover {
+  color: #00C993 !important;
+}
+
+/* line 2, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_portfolio.scss */
+#portTitle {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 500;
+  color: #00C993;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 15px;
+}
+
+/* line 6, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_portfolio.scss */
+.portBtn {
+  width: 50px;
+  height: 50px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  background-clip: padding-box;
+  /* stops bg color from leaking outside the border: */
+  border: 1px solid #fff;
+  background-color: #00C993;
+  font-size: 2rem;
+  text-align: center;
+  color: #fff;
+  margin-left: 48.1%;
+}
+
+/* line 19, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_portfolio.scss */
+.container {
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 20px;
+  background-color: #fff;
+  -webkit-box-shadow: inset 1px 1px 9px -1px #7a7a7a;
+  -moz-box-shadow: inset 1px 1px 9px -1px #7a7a7a;
+  box-shadow: inset 1px 1px 9px -1px #7a7a7a;
+}
+
+/* line 26, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_portfolio.scss */
+.container .row {
+  margin-top: 50px;
+}
+
+/* line 28, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_portfolio.scss */
+.container .row .col-md-6 {
+  background-color: #fff;
+  margin-left: 0;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+/* line 33, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_portfolio.scss */
+.container .row .col-md-6 img {
+  max-width: 100%;
+  max-height: 100%;
+  border: 1px solid #00C993;
+}
+
+/* line 38, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_portfolio.scss */
+.container .row .col-md-6 .divLink {
+  display: inline-block;
+  width: 30%;
+  margin-top: 20px;
+  margin-left: 15%;
+  background-color: #00C993;
+  text-align: center;
+  padding: 10px;
+}
+
+/* line 48, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_portfolio.scss */
+.container .row .col-md-6 .divLinkCode {
+  display: inline-block;
+  width: 30%;
+  margin-top: 20px;
+  margin-left: 5%;
+  background-color: #006fba;
+  text-align: center;
+  padding: 10px;
+}
+
+/* line 57, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_portfolio.scss */
+.container .row .col-md-6 a {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 1.2rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* line 63, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_portfolio.scss */
+.container .row .col-md-6 p {
+  text-align: center;
+  font-family: "IBM Plex Mono", monospace;
+  color: #919293;
+  margin-top: 20px;
+}
+
+/* line 1, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_hidden.scss */
+#hidCont {
+  display: none;
+}
+
+@media only screen and (max-width: 900px) {
+  /* line 6, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_mediaQ.scss */
+  .summary {
+    font-size: 1.2rem !important;
+    text-align: center;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  /* line 13, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_mediaQ.scss */
+  .portBtn {
+    margin-left: 47%;
+  }
+  /* line 18, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_mediaQ.scss */
+  #col-pic {
+    width: 22% !important;
+    height: 200px !important;
+    margin-left: 38% !important;
+  }
+  /* line 24, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_mediaQ.scss */
+  #col-about {
+    text-align: center;
+    margin-right: 25% !important;
+  }
+  /* line 29, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_mediaQ.scss */
+  .skills {
+    width: 40% !important;
+    margin-left: 30% !important;
+  }
+  /* line 32, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_mediaQ.scss */
+  .skills h4 {
+    font-size: 1.5rem !important;
+    margin-left: 10%;
+  }
+  /* line 36, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_mediaQ.scss */
+  .skills #skillI {
+    padding-left: none !important;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  /* line 46, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_mediaQ.scss */
+  .navbar-nav {
+    margin-left: 70%;
+  }
+  /* line 50, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_mediaQ.scss */
+  .portBtn {
+    margin-left: 43%;
+  }
+  /* line 54, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_mediaQ.scss */
+  #col-pic {
+    width: 40% !important;
+    height: 150px !important;
+    margin-left: 30% !important;
+  }
+  /* line 59, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_mediaQ.scss */
+  #col-about {
+    text-align: center;
+    font-size: 1rem !important;
+    margin-right: 25% !important;
+  }
+  /* line 65, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_mediaQ.scss */
+  .skills {
+    width: 90% !important;
+    margin-left: 20px !important;
+  }
+  /* line 68, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_mediaQ.scss */
+  .skills h4 {
+    font-size: 1.4rem !important;
+    margin-left: 10%;
+  }
+  /* line 72, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_mediaQ.scss */
+  .skills #skillI {
+    font-size: 1rem !important;
+  }
+}
+
+/*font-family: 'IBM Plex Mono', monospace;
+font-family: 'Rakkas', cursive;
+font-family: 'Farsan', cursive;
+font-family: 'Mina', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Playfair Display SC', serif;
+font-family: 'Prompt', sans-serif;*/
+/* line 3, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/modules/_buttons.scss */
+#shLink {
+  transition: box-shadow .2s, padding .2s;
+  -webkit-transition: box-shadow .2s, padding .2s;
+}
+
+/* line 5, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/modules/_buttons.scss */
+#shLink:hover {
+  -webkit-box-shadow: -1px 6px 9px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 6px 9px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 6px 9px 1px rgba(0, 0, 0, 0.75);
+  padding: 12px;
+}
+
+/* line 11, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/modules/_buttons.scss */
+#shCode {
+  transition: box-shadow .2s, padding .2s;
+  -webkit-transition: box-shadow .2s, padding .2s;
+}
+
+/* line 13, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/modules/_buttons.scss */
+#shCode:hover {
+  -webkit-box-shadow: -1px 6px 9px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 6px 9px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 6px 9px 1px rgba(0, 0, 0, 0.75);
+  padding: 12px;
+}
+
+/* line 21, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/modules/_buttons.scss */
+#phoLink {
+  transition: box-shadow .2s, padding .2s;
+  -webkit-transition: box-shadow .2s, padding .2s;
+}
+
+/* line 23, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/modules/_buttons.scss */
+#phoLink:hover {
+  -webkit-box-shadow: -1px 6px 9px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 6px 9px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 6px 9px 1px rgba(0, 0, 0, 0.75);
+  padding: 12px;
+}
+
+/* line 29, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/modules/_buttons.scss */
+#phoCode {
+  transition: box-shadow .2s, padding .2s;
+  -webkit-transition: box-shadow .2s, padding .2s;
+}
+
+/* line 31, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/modules/_buttons.scss */
+#phoCode:hover {
+  -webkit-box-shadow: -1px 6px 9px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 6px 9px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 6px 9px 1px rgba(0, 0, 0, 0.75);
+  padding: 12px;
+}
+
+/* line 39, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/modules/_buttons.scss */
+#eroLink {
+  transition: box-shadow .2s, padding .2s;
+  -webkit-transition: box-shadow .2s, padding .2s;
+}
+
+/* line 41, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/modules/_buttons.scss */
+#eroLink:hover {
+  -webkit-box-shadow: -1px 6px 9px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 6px 9px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 6px 9px 1px rgba(0, 0, 0, 0.75);
+  padding: 12px;
+}
+
+/* line 47, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/modules/_buttons.scss */
+#eroCode {
+  transition: box-shadow .2s, padding .2s;
+  -webkit-transition: box-shadow .2s, padding .2s;
+}
+
+/* line 49, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/modules/_buttons.scss */
+#eroCode:hover {
+  -webkit-box-shadow: -1px 6px 9px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 6px 9px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 6px 9px 1px rgba(0, 0, 0, 0.75);
+  padding: 12px;
+}
+
+/* line 57, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/modules/_buttons.scss */
+#strLink {
+  transition: box-shadow .2s, padding .2s;
+  -webkit-transition: box-shadow .2s, padding .2s;
+}
+
+/* line 59, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/modules/_buttons.scss */
+#strLink:hover {
+  -webkit-box-shadow: -1px 6px 9px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 6px 9px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 6px 9px 1px rgba(0, 0, 0, 0.75);
+  padding: 12px;
+}
+
+/* line 65, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/modules/_buttons.scss */
+#strCode {
+  transition: box-shadow .2s, padding .2s;
+  -webkit-transition: box-shadow .2s, padding .2s;
+}
+
+/* line 67, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/modules/_buttons.scss */
+#strCode:hover {
+  -webkit-box-shadow: -1px 6px 9px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 6px 9px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 6px 9px 1px rgba(0, 0, 0, 0.75);
+  padding: 12px;
+}
+
+/* line 75, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/modules/_buttons.scss */
+#jonLink {
+  transition: box-shadow .2s, padding .2s;
+  -webkit-transition: box-shadow .2s, padding .2s;
+}
+
+/* line 77, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/modules/_buttons.scss */
+#jonLink:hover {
+  -webkit-box-shadow: -1px 6px 9px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 6px 9px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 6px 9px 1px rgba(0, 0, 0, 0.75);
+  padding: 12px;
+}
+
+/* line 83, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/modules/_buttons.scss */
+#jonCode {
+  transition: box-shadow .2s, padding .2s;
+  -webkit-transition: box-shadow .2s, padding .2s;
+}
+
+/* line 85, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/modules/_buttons.scss */
+#jonCode:hover {
+  -webkit-box-shadow: -1px 6px 9px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 6px 9px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 6px 9px 1px rgba(0, 0, 0, 0.75);
+  padding: 12px;
+}
+
+/* line 93, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/modules/_buttons.scss */
+#whimLink {
+  transition: box-shadow .2s, padding .2s;
+  -webkit-transition: box-shadow .2s, padding .2s;
+}
+
+/* line 95, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/modules/_buttons.scss */
+#whimLink:hover {
+  -webkit-box-shadow: -1px 6px 9px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 6px 9px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 6px 9px 1px rgba(0, 0, 0, 0.75);
+  padding: 12px;
+}
+
+/* line 101, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/modules/_buttons.scss */
+#whimCode {
+  transition: box-shadow .2s, padding .2s;
+  -webkit-transition: box-shadow .2s, padding .2s;
+}
+
+/* line 103, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/modules/_buttons.scss */
+#whimCode:hover {
+  -webkit-box-shadow: -1px 6px 9px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 6px 9px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 6px 9px 1px rgba(0, 0, 0, 0.75);
+  padding: 12px;
+}
+
+/* line 111, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/modules/_buttons.scss */
+#porBtn {
+  transition: box-shadow .2s, padding .2s;
+  -webkit-transition: box-shadow .2s, padding .2s;
+  cursor: pointer;
+}
+
+/* line 114, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/modules/_buttons.scss */
+#porBtn:hover {
+  padding: 12px;
+}
+
+/*# sourceMappingURL=../css/main.map */

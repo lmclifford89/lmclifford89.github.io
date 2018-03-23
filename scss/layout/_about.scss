@@ -1,0 +1,57 @@
+.about{
+  width: 100%;
+   float:left;
+   margin-top:90px;
+   margin-bottom:100px;
+   //background-color: $blue;
+   #titleAbout{
+     @include title;
+   }
+#col-pic {
+   width:15%;
+   height:200px;
+   background-image:url(../img/about_me.jpg);
+   background-size:cover;
+   //background-color:$green;
+   margin-left:15%;
+   float:left;
+   @include border($green);
+}
+#col-about{
+   width: 50%;
+   margin-top:50px;
+   margin-right: 180px;
+   font-size: 1.2rem;
+   color: $paraColor;
+   float:right;
+
+}
+.skills{
+  width:30%;
+  height: auto;
+  background-color: $green;
+  float: left;
+  @include title;
+  @include border-radius(10px);
+  margin-left: 5%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 50px;
+  color: $white;
+  text-align: center;
+  h4{
+    margin-left: 10%;
+  }
+#skillI{
+  display: inline-block;
+  font-size: 1rem;
+  margin-top: 20px;
+  ul{
+    display: inline-block;
+    li{
+      list-style-type: none;
+    }
+  }
+}
+}
+}

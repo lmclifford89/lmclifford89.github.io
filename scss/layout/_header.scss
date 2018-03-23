@@ -1,0 +1,43 @@
+header{
+  width: auto;
+  height: auto;
+  @include gradient;
+  .title{
+    font-family: $ibm;
+    font-weight: bold;
+    font-size: 5rem;
+    color: $white;
+    text-align: center;
+    margin-top: 5%;
+    padding-bottom: 20px;
+  }
+  .summary{
+    font-family: $ibm;
+    font-size: 1.5rem;
+    color: $white;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 50px;
+  }
+  .btnHead{
+    padding-top: 50px;
+    padding-bottom: 120px;
+    text-align: center;
+  }
+  .btnHead a {
+    color:$white;
+    text-decoration:none;
+    @include border-radius(5px);
+    @include border($white);
+    font-family:$ibm;
+    font-weight: bold;
+    font-size: 15px;
+    padding:20px;
+    background: rgba(46, 132, 108, 0.5);
+    &:hover{
+      background-color: $white;
+      color:$green;
+    }
+  }
+}
