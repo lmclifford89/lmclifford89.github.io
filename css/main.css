@@ -54,14 +54,14 @@ body {
   font-weight: 500;
   color: #00C993;
   text-align: center;
-  margin-top: 80px;
+  margin-top: 90px;
   margin-bottom: 15px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
   background-clip: padding-box;
   /* stops bg color from leaking outside the border: */
-  margin-left: 5%;
+  margin-left: 35%;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-right: 50px;
