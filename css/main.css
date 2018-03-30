@@ -607,14 +607,14 @@ font-family: 'Prompt', sans-serif;*/
 }
 
 /* line 111, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/modules/_buttons.scss */
-#porBtn {
+#portBtn {
   transition: box-shadow .2s, padding .2s;
   -webkit-transition: box-shadow .2s, padding .2s;
   cursor: pointer;
 }
 
 /* line 114, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/modules/_buttons.scss */
-#porBtn:hover {
+#portBtn:hover {
   padding: 12px;
 }
 
