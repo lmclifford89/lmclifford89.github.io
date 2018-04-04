@@ -349,87 +349,6 @@ header .btnHead a:hover {
 }
 
 
-@media only screen and (max-width: 1440px) {
-
-.navbar-nav {
-  margin-left: 77%;
-  }
-
-@media only screen and (max-width: 900px) {
-  /* line 6, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_mediaQ.scss */
-  .summary {
-    font-size: 1.2rem !important;
-    text-align: center;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-  }
-  /* line 13, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_mediaQ.scss */
-  .portBtn {
-    margin-left: 47%;
-  }
-  /* line 18, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_mediaQ.scss */
-  #col-pic {
-    width: 22% !important;
-    height: 200px !important;
-    margin-left: 38% !important;
-  }
-  /* line 24, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_mediaQ.scss */
-  #col-about {
-    text-align: center;
-    margin-right: 25% !important;
-  }
-  /* line 29, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_mediaQ.scss */
-  .skills {
-    width: 40% !important;
-    margin-left: 30% !important;
-  }
-  /* line 32, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_mediaQ.scss */
-  .skills h4 {
-    font-size: 1.5rem !important;
-    margin-left: 10%;
-  }
-  /* line 36, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_mediaQ.scss */
-  .skills #skillI {
-    padding-left: none !important;
-  }
-}
-
-@media only screen and (max-width: 376px) {
-  /* line 46, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_mediaQ.scss */
-  .navbar-nav {
-    margin-left: 70%;
-  }
-  /* line 50, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_mediaQ.scss */
-  .portBtn {
-    margin-left: 43%;
-  }
-  /* line 54, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_mediaQ.scss */
-  #col-pic {
-    width: 40% !important;
-    height: 150px !important;
-    margin-left: 30% !important;
-  }
-  /* line 59, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_mediaQ.scss */
-  #col-about {
-    text-align: center;
-    font-size: 1rem !important;
-    margin-right: 25% !important;
-  }
-  /* line 65, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_mediaQ.scss */
-  .skills {
-    width: 90% !important;
-    margin-left: 20px !important;
-  }
-  /* line 68, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_mediaQ.scss */
-  .skills h4 {
-    font-size: 1.4rem !important;
-    margin-left: 10%;
-  }
-  /* line 72, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_mediaQ.scss */
-  .skills #skillI {
-    font-size: 1rem !important;
-  }
-}
 
 /*font-family: 'IBM Plex Mono', monospace;
 font-family: 'Rakkas', cursive;
@@ -617,6 +536,93 @@ font-family: 'Prompt', sans-serif;*/
 #porBtn:hover {
   padding: 12px;
   color: #006fba;
+
+
+
+@media only screen and (max-width: 1440px) {
+
+.navbar-nav {
+  margin-left: 77%;
+  }
+  
+  }
+
+@media only screen and (max-width: 900px) {
+  /* line 6, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_mediaQ.scss */
+  .summary {
+    font-size: 1.2rem !important;
+    text-align: center;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  /* line 13, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_mediaQ.scss */
+  .portBtn {
+    margin-left: 47%;
+  }
+  /* line 18, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_mediaQ.scss */
+  #col-pic {
+    width: 22% !important;
+    height: 200px !important;
+    margin-left: 38% !important;
+  }
+  /* line 24, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_mediaQ.scss */
+  #col-about {
+    text-align: center;
+    margin-right: 25% !important;
+  }
+  /* line 29, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_mediaQ.scss */
+  .skills {
+    width: 40% !important;
+    margin-left: 30% !important;
+  }
+  /* line 32, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_mediaQ.scss */
+  .skills h4 {
+    font-size: 1.5rem !important;
+    margin-left: 10%;
+  }
+  /* line 36, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_mediaQ.scss */
+  .skills #skillI {
+    padding-left: none !important;
+  }
 }
+
+@media only screen and (max-width: 376px) {
+  /* line 46, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_mediaQ.scss */
+  .navbar-nav {
+    margin-left: 70%;
+  }
+  /* line 50, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_mediaQ.scss */
+  .portBtn {
+    margin-left: 43%;
+  }
+  /* line 54, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_mediaQ.scss */
+  #col-pic {
+    width: 40% !important;
+    height: 150px !important;
+    margin-left: 30% !important;
+  }
+  /* line 59, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_mediaQ.scss */
+  #col-about {
+    text-align: center;
+    font-size: 1rem !important;
+    margin-right: 25% !important;
+  }
+  /* line 65, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_mediaQ.scss */
+  .skills {
+    width: 90% !important;
+    margin-left: 20px !important;
+  }
+  /* line 68, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_mediaQ.scss */
+  .skills h4 {
+    font-size: 1.4rem !important;
+    margin-left: 10%;
+  }
+  /* line 72, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_mediaQ.scss */
+  .skills #skillI {
+    font-size: 1rem !important;
+  }
+}
+
+
 
 /*# sourceMappingURL=../css/main.map */
