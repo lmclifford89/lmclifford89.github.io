@@ -608,8 +608,8 @@ font-family: 'Prompt', sans-serif;*/
 
 /* line 111, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/modules/_buttons.scss */
 #porBtn {
-  transition: box-shadow .2s, padding .2s;
-  -webkit-transition: box-shadow .2s, padding .2s;
+  transition: padding .2s;
+  -webkit-transition: padding .2s;
   cursor: pointer;
 }
 
