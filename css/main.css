@@ -607,13 +607,9 @@ font-family: 'Prompt', sans-serif;*/
   }
   /* line 59, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_mediaQ.scss */
   #col-about {
-    /*text-align: center;
-    font-size: 1rem !important;
-    margin-right: 25% !important;*/
-    font-size: 1.2rem !important;
     text-align: center;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
+    font-size: .8rem !important;
+    margin-right: 25% !important;
   }
   /* line 65, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_mediaQ.scss */
   .skills {
