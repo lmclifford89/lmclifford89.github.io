@@ -587,6 +587,9 @@ font-family: 'Prompt', sans-serif;*/
 }
 
 @media only screen and (max-width: 376px) {
+  .title {
+    font-size: 1.5em;
+  }
   /* line 46, C:/Users/mufff/Desktop/web dev 2018/Git Pages Portfolio Site/lmclifford89.github.io/scss/layout/_mediaQ.scss */
   .navbar-nav {
     margin-left: 70%;
